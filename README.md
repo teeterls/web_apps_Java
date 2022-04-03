@@ -9,7 +9,7 @@ In this repo, multiple tasks and more complex projects are developed (all resour
 
 ### 3. Java Servlets
 
-## 4. JavaServer Pages (JSP)
+### 4. JavaServer Pages (JSP)
 
 
 ### 5. Model-View-Controller Architecture Pattern (MVC)
