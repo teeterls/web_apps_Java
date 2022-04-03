@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Teresa González García 3º GITT+ADE">
+    <meta name="description" content="Práctica 4-Programación Aplicaciones Telemáticas">
+    <link href="estilo.css" rel=StyleSheet type="text/css"> <!--link CSS StyleSheet-->
+    <script src="main.js" async></script> <!--link main.js JavaScript async para que no de problemas de secuencialidad-->
+
+    <title>Practica 4-index</title>
+</head>
+<body>
+
+<div id="main">
+    <header>
+        <div id="cabecera">
+            <div id="navigation">
+                <nav>
+                    <span>Acceso a Temas: <a href="#tema1">T1</a>-<a href="#tema2">T2</a>-<a href="#tema3">T3</a>-<a href="#tema4">T4</a></span></nav></div>
+            <p>Programación de <br> Aplicaciones Telemáticas</p>
+
+            <!--formulario caja búsqueda Google-->
+            <form method="post">
+                <div id="buscar"><label>Búsqueda:</label><input type="text" id="cajabusqueda" onkeyup="ValidarForm();"/>
+                    <input type="button" id="botonbusqueda" value="Buscar" onclick="ValidarForm();ValidarFinal();"/>
+                </div>
+                <br/><br/>
+                <div id="Error"></div>
+            </form>
+        </div>
+    </header>
+    <br/><br/>
+    <div id="contenedorImagenes">
+        <img class="imagenredonda1" src="comunicacion.gif">
+        <img class="imagenredonda2" src="comunicacion.gif">
+        <img class="imagenredonda3" src="comunicacion.gif">
+    </div>
+    <div id="contenedorTextos">
+        <span class="textoimagen1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum.Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh.</span>
+        <span class="textoimagen2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum.Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh.</span>
+        <span class="textoimagen3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum.Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh.</span>
+    </div>
+
+    <hr id="linea1"/>
+    <br/>
+
+    <aside>
+        <p>Lorem Ipsum a la derecha<br/><br/> Lorem Ipsum a la derecha <br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/>Lorem Ipsum a la derecha<br/><br/><p>
+    </aside>
+
+    <div id="tema1">
+        <h3 class="temaTitulo">Tema 1</h3>
+        <img class="temaImagen1" src="teleco.jpg">
+        <p class="temaTexto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum. Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh. Sed consectetur facilisis mauris, in vestibulum neque sodales efficitur. Ut eu nunc aliquam, dictum nulla at, fermentum ipsum. Sed sapien lorem, pretium eget venenatis et, condimentum eget nibh. Nulla facilisi. Maecenas fermentum accumsan lacus ac pellentesque. Donec quis ligula ac magna ornare hendrerit ac eu leo. In id urna lorem. Fusce sed quam ipsum.</p>
+    </div>
+
+    <hr id="linea2"/>
+    <br/>
+
+    <div id="tema2">
+        <h3 class="temaTitulo">Tema 2</h3>
+        <img class="temaImagen2" src="teleco.jpg">
+        <p class="temaTexto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum. Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh. Sed consectetur facilisis mauris, in vestibulum neque sodales efficitur. Ut eu nunc aliquam, dictum nulla at, fermentum ipsum. Sed sapien lorem, pretium eget venenatis et, condimentum eget nibh. Nulla facilisi. Maecenas fermentum accumsan lacus ac pellentesque. Donec quis ligula ac magna ornare hendrerit ac eu leo. In id urna lorem. Fusce sed quam ipsum.</p>
+    </div>
+
+    <hr id="linea3"/>
+    <br/>
+
+    <div id="tema3">
+        <h3 class="temaTitulo">Tema 3</h3>
+        <img class="temaImagen1" src="teleco.jpg">
+        <p class="temaTexto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum. Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh. Sed consectetur facilisis mauris, in vestibulum neque sodales efficitur. Ut eu nunc aliquam, dictum nulla at, fermentum ipsum. Sed sapien lorem, pretium eget venenatis et, condimentum eget nibh. Nulla facilisi. Maecenas fermentum accumsan lacus ac pellentesque. Donec quis ligula ac magna ornare hendrerit ac eu leo. In id urna lorem. Fusce sed quam ipsum.</p>
+    </div>
+
+    <hr id="linea4"/>
+    <br/>
+
+    <div id="tema4">
+        <h3 class="temaTitulo">Tema 4</h3>
+        <img class="temaImagen4" src="teleco.jpg">
+        <p class="temaTexto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nisi ipsum, fringilla ut lacinia vel, pretium nec ipsum. Vestibulum id fringilla erat, non consequat ipsum. Proin id rhoncus nibh. Sed consectetur facilisis mauris, in vestibulum neque sodales efficitur. Ut eu nunc aliquam, dictum nulla at, fermentum ipsum. Sed sapien lorem, pretium eget venenatis et, condimentum eget nibh. Nulla facilisi. Maecenas fermentum accumsan lacus ac pellentesque. Donec quis ligula ac magna ornare hendrerit ac eu leo. In id urna lorem. Fusce sed quam ipsum.</p>
+    </div>
+
+</div>
+</body>
+</html>

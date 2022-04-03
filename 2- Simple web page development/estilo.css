@@ -1,0 +1,172 @@
+body{
+    background-image: url(fondo.gif);
+    height:auto;
+}
+
+#main{
+    background-color: white;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+#cabecera {
+    background-image: url(teleco.jpg);
+    width:100%;
+    background-size:100%;
+}
+
+#cabecera p{
+    color:yellow;
+    font-size: 30pt;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+#cabecera form
+{
+    font-size:13px;
+    position:relative;
+    top:25px;
+    font-family: sans-serif;
+    color: darkorange;
+}
+
+#buscar
+{
+    float: right;
+}
+
+form input
+{
+    font-family: sans-serif;
+    color: yellow;
+    background-color: black;
+}
+
+#Error
+{
+    text-align: center;
+    color:orange;
+    font-size: 14px;
+    justify-content: center;
+    font-style: italic;
+}
+
+#navigation {
+    background-color: antiquewhite;
+    border-radius:14px;
+    border: grey;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+}
+
+#contenedorImagenes{
+    text-align: center;
+    margin-left:3%;
+    margin-right: 3%;
+    padding: 2%;
+
+}
+
+#contenedorTextos{
+    text-align: center;
+    padding:2%;
+
+}
+
+.imagenredonda1
+{
+    border-radius: 50%;
+    float:left;
+}
+
+.imagenredonda2
+{
+    border-radius: 50%;
+    display:inline-block;
+}
+
+.imagenredonda3
+{
+    border-radius: 50%;
+    float:right;
+}
+
+.textoimagen1{
+    float:left;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.textoimagen2{
+    display: inline-block;
+    max-width: 30%;
+}
+
+.textoimagen3{
+    float:right;
+    max-width: 30%;
+}
+
+
+
+
+.temaTitulo {
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left:5%;
+
+}
+
+.temaImagen1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height:120px;
+    float:left;
+
+}
+.temaTexto1{
+    font-family: sans-serif;
+    font-size: 10pt;
+    width:70%;
+    align-content:center;
+    text-align: justify;
+}
+.temaImagen2{
+    margin-left:auto;
+    margin-right:12%;
+    max-width:25%;
+    height: 120px;
+    float:right;
+}
+
+.temaImagen4{
+    margin-left:auto;
+    margin-right:30%;
+    max-width:25%;
+    height: 120px;
+    float:right;
+}
+.temaTexto2{
+    font-family: sans-serif;
+    font-size: 10pt;
+    width:70%;
+    align-content:center;
+    text-align: justify;
+}
+
+aside{
+    max-width:20%;
+    float:right;
+    margin-right:10px;
+    background-color: grey;
+    opacity:0.3;
+    text-align: center;
+    color:gainsboro;
+    padding-left:1px;
+    padding-right:1px;
+    height:100%;
+}

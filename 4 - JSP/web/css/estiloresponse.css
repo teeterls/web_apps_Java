@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(to left, lightpink, white);
+}
+
+h2
+{
+    text-align: center;
+}
+#respuesta
+{
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    font-family: Times;
+    color:black;
+    background-color: pink;
+    border-style: inset;
+    border-color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 20px;
+    opacity:0.7;
+    top:10%;
+    padding:20px;
+}
+
+#respuesta .label
+{
+    font-weight: normal;
+    font-style: italic;
+}
+
+li
+{
+    text-align:center;
+}

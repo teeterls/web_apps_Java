@@ -1,0 +1,31 @@
+ body{
+     background: linear-gradient(to bottom, lightpink, white);
+ }
+
+.obligatorio label
+ {
+     color: red;
+ }
+
+ #Error
+ {
+     text-align: center;
+     align-content:center;
+     font-family: Times;
+     color: black;
+     font-size: x-large;
+     font-weight: bolder;
+     background-color: pink;
+     border-radius: 10px;
+ }
+
+ form #inputs .in
+ {
+     background-color: pink;
+     font-style: italic;
+     font-weight: bold;
+     border-radius: 10px;
+     padding:1%;
+     border-style: solid;
+     border-color: black;
+ }
