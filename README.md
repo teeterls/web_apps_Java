@@ -15,7 +15,6 @@ There are 3 folders:
 
 ### 2. Simple web page development
 In this project, a simple responsive web page is developed using the following client-side technologies: HTML, CSS and JavaScript. The web page is dynamic, so apart from static text and images, there is a search box, in which, according to some constraints, the user can type any valid String (OK! message), and the web page will take him to Google results page. Some screenshots are:
-![image](https://user-images.githubusercontent.com/46919127/161437212-3689bccc-0466-430f-baf1-50eb4c33033b.png)
 ![image](https://user-images.githubusercontent.com/46919127/161437261-b4688d69-7cae-48f8-9dad-f0f20ccf15c3.png)
 ![image](https://user-images.githubusercontent.com/46919127/161437274-941f01cd-1f08-4d28-823e-e8a1e050b25a.png)
 
@@ -35,7 +34,7 @@ In this project, the previous form is improved, including client-side validation
 ![image](https://user-images.githubusercontent.com/46919127/161436872-fefc0ef7-b098-4ffe-8f34-53373dbb8b25.png)
 
 ### 6. Jakarta Expression Language (EL) and JSP tag  library (JSTL)
-In this project, 
+In this project, a simple web app for a library orders' maganement (shopping cart) is developed. For this purpose, EL and JSTL are used, as well as client-side web technologies JDBC driver for connection to database
 ![image](https://user-images.githubusercontent.com/46919127/161437011-11a55e40-5baf-4c60-8654-467ee37b5eff.png)
 ![image](https://user-images.githubusercontent.com/46919127/161437017-d6a74cfb-3502-4331-8156-550002f3cf55.png)
 ![image](https://user-images.githubusercontent.com/46919127/161437043-e3eac693-22e3-4f6c-bc36-16761f8e017a.png)
